@@ -1,12 +1,12 @@
 /**
  * Created by Andrey on 5/8/17.
  */
-import React from "react";
+import React, { Component } from "react";
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { fetchWeather } from '../actions/index';
 
-class SearchBar extends React.Component {
+class SearchBar extends Component {
     constructor(props) {
         super(props);
 
